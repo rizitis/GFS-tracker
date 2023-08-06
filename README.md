@@ -14,6 +14,16 @@ No uploads, no root access needed.
 Just share your infos of your Slackware Gnome installation if needed or for statistics reason to help us improve it.
 https://discord.gg/WzSabC7M
 
+## INSTALL
+No installation needed. Just download GFS-tracker.py and make it executable
+```
+chmod +x GFS-tracker.py
+```
+Then run it
+```
+python3 GFS-tracker.py
+```
+
 +-------------------------------------------------------------------------------------------------+
 
 Slackware™ is a trademark of Patrick Volkerding. http://www.slackware.com/trademark/trademark.php
