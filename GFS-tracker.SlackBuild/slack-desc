@@ -5,15 +5,15 @@
 # make exactly 11 lines for the formatting to be correct.  It's also
 # customary to leave one space after the ':'.
 
-                   |-----handy-ruler------------------------------------------------------|
-Slackware-Commander: Slackware-Commander (gui Slackware control center)
-Slackware-Commander:
-Slackware-Commander: Slackware-Commander is a gui app which help you to maintain your
-Slackware-Commander: Slackware64 system from a graphical menu. It use yad and gtkdialog
-Slackware-Commander: for the graphical interface. 
-Slackware-Commander: 
-Slackware-Commander: 
-Slackware-Commander: 
-Slackware-Commander:
-Slackware-Commander: Home: https://github.com/rizitis/Slackware-Commander
-Slackware-Commander: 
+           |-----handy-ruler------------------------------------------------------|
+GFS-tracker: GFS-tracker (list your (Slackware) Gnome installation in terminal)
+GFS-tracker:
+GFS-tracker: Modified script of gnome-info-collect 
+GFS-tracker: to work for SysVinit and Slackware.
+GFS-tracker: No uploads, no root access needed.
+GFS-tracker: 
+GFS-tracker: 
+GFS-tracker: 
+GFS-tracker:
+GFS-tracker: Home: https://github.com/rizitis/GFS-tracker
+GFS-tracker: 
