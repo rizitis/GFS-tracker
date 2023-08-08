@@ -85,14 +85,15 @@ find -L . \
   -o -perm 511 \) -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
-  
-cat $CWD/$PRGNAM.py > $PKG/usr/local/bin/$PRGNAM.py
+
+mkdir -p $PKG/usr/local/bin  
+cat $PRGNAM.py > $PKG/usr/local/bin/$PRGNAM.py
 chmod +x $PKG/usr/local/bin/$PRGNAM.py
 
 mkdir -p $PKG/usr/share/icons/$PRGNAM
-cp $CWD/$PRGNAM.png $PKG/usr/share/icons/$PRGNAM/$PRGNAM.png
+cp $PRGNAM.png $PKG/usr/share/icons/$PRGNAM/$PRGNAM.png
 mkdir -p $PKG/usr/share/applications 
-cat $CWD/$PRGNAM.desktop > $PKG/usr/share/applications/$PRGNAM.desktop
+cat $PRGNAM.desktop > $PKG/usr/share/applications/$PRGNAM.desktop
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
