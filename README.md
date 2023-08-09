@@ -23,10 +23,17 @@ Then run it
 ```
 python3 GFS-tracker.py
 ```
+BUT if you want to install it
+```
+wget https://github.com/rizitis/GFS-tracker/archive/refs/heads/main.zip
+unzip main.zip && cd GFS-tracker-main/GFS-tracker.SlackBuild/
+sudo ./GFS-tracker.SlackBuild
+installpkg /tmp/GFS-tracker-100-x86_64-1_rtz.tgz
+```
 
 
 ### NOTE
-works only in Gnome Desktop
+script works only in Gnome Desktop and NOT as root
 +-------------------------------------------------------------------------------------------------+
 
 Slackware™ is a trademark of Patrick Volkerding. http://www.slackware.com/trademark/trademark.php
