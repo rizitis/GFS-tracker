@@ -34,6 +34,8 @@ installpkg /tmp/GFS-tracker-100-x86_64-1_rtz.tgz
 
 ### NOTE
 script works only in Gnome Desktop and NOT as root
+
+
 +-------------------------------------------------------------------------------------------------+
 
 Slackware™ is a trademark of Patrick Volkerding. http://www.slackware.com/trademark/trademark.php
