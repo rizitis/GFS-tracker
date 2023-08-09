@@ -27,7 +27,7 @@ BUT if you want to install it
 ```
 wget https://github.com/rizitis/GFS-tracker/archive/refs/heads/main.zip
 unzip main.zip && cd GFS-tracker-main/GFS-tracker.SlackBuild/
-sudo ./GFS-tracker.SlackBuild
+su -c ./GFS-tracker.SlackBuild
 installpkg /tmp/GFS-tracker-100-x86_64-1_rtz.tgz
 ```
 
