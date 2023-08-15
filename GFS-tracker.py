@@ -357,7 +357,7 @@ def present_collected_data(data: dict):
     # ~ Max length of a key in 'data' for pretty formatted output
     MAX_LEN = 26  # "Workspaces only on primary"
 
-    print("The following information will be sent to the GNOME project:\n")
+    print("Long Live Slackware...:\n")
     for key, value in data.items():
         if key in ('Installed apps', 'Favourited apps',
                    'Online accounts', 'Enabled extensions'):
